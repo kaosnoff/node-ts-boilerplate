@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "dist",
+		"sourceMap": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true
+	},
+	"include": [
+		"src/**/*.ts",
+		"data/*.json",
+		"data/import/*.csv"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
