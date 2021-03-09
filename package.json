@@ -4,12 +4,11 @@
   "description": "Sistema AUD para verificação de contratos do STJ",
   "main": "dist/index.js",
   "scripts": {
-    "start": "yarn clean && yarn copy-files && nodemon",
+    "start": "yarn clean && nodemon",
     "build": "yarn sass:build && webpack",
-    "sass": "sass --watch src/sass/estilo.scss public/css/estilo.css",
-    "sass:build": "sass src/sass/estilo.scss public/css/estilo.css",
-    "clean": "rimraf dist/",
-    "copy-files": "copyfiles -u 1 data/**/* dist/"
+    "sass": "sass --watch src/sass/style.scss public/css/style.css",
+    "sass:build": "sass src/sass/style.scss public/css/style.css",
+    "clean": "rimraf dist/"
   },
   "author": "Vitor Dutra <dfreire@stj.jus.br>",
   "license": "ISC",

@@ -9,8 +9,6 @@
 	},
 	"include": [
 		"src/**/*.ts",
-		"data/*.json",
-		"data/import/*.csv"
 	],
 	"exclude": [
 		"node_modules"
